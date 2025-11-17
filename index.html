@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safari Blue Zanzibar</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #00c0e0, #0088a3);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      font-size: 26px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.25);
+    }
+
+    .intro-text {
+      padding: 18px;
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    /* --- VIDEO CONTAINER --- */
+    .video-container {
+      position: relative;
+    }
+
+    video {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-bottom: 3px solid white;
+    }
+
+    /* UNMUTE BUTTON FIXED */
+    #soundToggle {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      background: rgba(0,0,0,0.6);
+      padding: 10px 14px;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      backdrop-filter: blur(4px);
+    }
+
+    /* WHATSAPP BUTTON */
+    .btn-whatsapp {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 15px 0;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1EBE57;
+    }
+
+    /* --- GALLERY --- */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      background: rgba(255,255,255,0.12);
+      border-radius: 12px;
+      padding: 10px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      padding: 25px;
+      background: rgba(0,0,0,0.3);
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Safari Blue Zanzibar
+</header>
+
+<div class="intro-text">
+  <strong>Experience the best day trip in Zanzibar.</strong><br>
+  Join our small-group boat trip:
+          The tour includes
+    Snorkeling, Sandbank stop,
+   Seafood buffet, Typicaly fruits.<br>
+  Blue lagoon  & Snorkeling gear.
+</div>
+
+<!-- VIDEO -->
+<div class="video-container">
+
+  <video id="safariVideo" autoplay muted loop playsinline>
+    <source src="media/lv_0_20251113062223.mp4" type="video/mp4">
+  </video>
+
+  <div id="soundToggle">🔊 Sound</div>
+
+</div>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/255772661962" class="btn-whatsapp">Book on WhatsApp</a>
+
+<!-- GALLERY -->
+<section class="gallery">
+
+  <div class="gallery-item">
+    <img src="media/758f77b467cdc0ebbb299c048eb32a4656ca07afb4ccb269157e5f9d359a6658(0).jpg">
+    <h3>Blue Lagoon</h3>
+  </div>
+
+  <div class="gallery-item">
+    <img src="media/snorkeling-on-zanzibar.jpg">
+    <h3>Snorkeling</h3>
+  </div>
+
+  <div class="gallery-item">
+    <img src="media/mnemba-full-day.jpg">
+    <h3>Boat Trip</h3>
+  </div>
+
+  <div class="gallery-item">
+    <img src="media/blue-safari-zanzibar_mIASX.jpeg">
+    <h3>Sandbank</h3>
+  </div>
+
+  <div class="gallery-item">
+    <img src="media/the-safari-blue-experience(0).jpg">
+    <h3>Seafood Lunch</h3>
+  </div>
+
+  <div class="gallery-item">
+    <img src="media/c061af4f166654bc284f49c452b04260650093c18e5dcc35a839a8936703b999.jpg">
+    <h3>Dolphins</h3>
+  </div>
+
+  <div class="gallery-item">
+    <img src="media/Kwale-Island-Marine-Reserve.jpg">
+    <h3>Island Kwale</h3>
+  </div>
+
+ <div class="gallery-item">
+   <img src="media/5e.jpg" alt="Fruits">
+   <h3>fruits</h3>
+</section>
+
+<footer>
+  Pickup from hotel - ask for price<br>
+  Free snorkeling gear • Secure booking - pay on arrival<br>The price $85 per person <br>
+  <a href="https://wa.me/255772661962" class="btn-whatsapp">Chat on WhatsApp</a>
+</footer>
+
+<footer>
+What to Bring:<br>
+•Sunscreen, hat<br>
+•Towel & small waterproof bag for phone/cash
+
+<script>
+  const video = document.getElementById("safariVideo");
+  const soundToggle = document.getElementById("soundToggle");
+
+  soundToggle.addEventListener("click", () => {
+    if (video.muted) {
+      video.muted = false;
+      soundToggle.innerHTML = "🔇 Mute";
+    } else {
+      video.muted = true;
+      soundToggle.innerHTML = "🔊 Sound";
+    }
+  });
+</script>
+
+</body>
+</html>
+
+
