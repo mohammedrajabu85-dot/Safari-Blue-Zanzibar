@@ -37,5 +37,5 @@ Click the WhatsApp button on the website to book your Safari Blue experience ins
 ---
 
 ### 👨‍💻 Developer
-Created and maintained by **Mohammed Rajabu**.  
+Created and maintained by **Mohammed Rajabu Khatib**.  
 Zanzibar, Tanzania.
