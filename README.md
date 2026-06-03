@@ -12,8 +12,8 @@ Safari Blue is one of the most famous sea excursions in Zanzibar. It includes:
 - Seafood lunch buffet  
 - Traditional dhow sailing experience  
 
-## 🌍 Live Website
-**https://safaribluezanzibar.github.io/Safari-Blue-Zanzibar/**  
+## 🌍 Live Website⤵️
+👉**https://safaribluezanzibar.github.io/Safari-Blue-Zanzibar/**  
 
 ## ⭐ Features
 - Fast and mobile-friendly  
