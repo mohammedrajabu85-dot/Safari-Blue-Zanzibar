@@ -14,7 +14,7 @@ Safari Blue is one of the most famous sea excursions in Zanzibar. It includes:
 
 ## 🌍 Live Website
 👇
-**https://safaribluezanzibar.github.io/Safari-Blue-Zanzibar/**  
+**https://localsafaribluezanzibar.github.io/Safari-Blue-Zanzibar/**  
 
 ## ⭐ Features
 - Fast and mobile-friendly  
